@@ -91,6 +91,41 @@ yellowstone-grpc-client = { version = "13.1.0" }
 yellowstone-grpc-proto = { version = "12.*" }
 
 [patch.crates-io]
+agave-cpu-utils = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+agave-feature-set = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+agave-random = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+agave-votor-messages = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+agave-xdp = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+agave-xdp-ebpf = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-account-decoder = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-account-decoder-client-types = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-builtins-default-costs = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-compute-budget = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-compute-budget-instruction = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-leader-schedule = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-measure = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-metrics = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-net-utils = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-perf = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-program-runtime = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-pubsub-client = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-rpc-client = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-rpc-client-api = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-rpc-client-types = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-runtime-transaction = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-streamer = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-svm-callback = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-svm-feature-set = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-svm-log-collector = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-svm-measure = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-svm-timings = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-svm-type-overrides = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-tls-utils = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-tpu-client-next = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-transaction-context = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-transaction-status-client-types = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-version = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
+solana-vote = { git = "https://github.com/Rqnsom/agave", rev = "3a1f4362b8286d8bb05312b53be07d62c491694f" }
 # for details, see https://github.com/anza-xyz/crossbeam/commit/5ee1c6ec671d94db14ed9238eb99e59a84555aad
 crossbeam-epoch = { git = "https://github.com/anza-xyz/crossbeam", rev = "5ee1c6ec671d94db14ed9238eb99e59a84555aad" }
 librocksdb-sys = { git = "https://github.com/anza-xyz/rust-rocksdb", rev = "4dba80dfe9434e595a971f5b2985ff9ba4fb31e7" }
